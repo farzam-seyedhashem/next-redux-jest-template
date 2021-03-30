@@ -1,7 +1,7 @@
 {
   "name": "next-redux-jest-template",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "dev": "node tests/commands/postRun.js && next dev",
     "proxy": "node tests/commands/postRun.js && node next-proxy.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@testing-library/react": "^11.2.2",
     "express": "^4.17.1",
+    "inquirer": "^8.0.0",
     "next": "10.0.3",
     "path": "^0.12.7",
     "react": "17.0.1",
@@ -41,5 +42,24 @@
     "node-fetch": "^2.6.1",
     "redux-mock-store": "^1.5.4",
     "shelljs": "^0.8.4"
-  }
+  },
+  "description": "### Introduction It's a template based on create-next-app that contains default folders and files for building a new project. The stack of this template contains the following items. * Next.js * Redux * Styled-Components",
+  "main": "index.js",
+  "bin": {
+    "next-redux-jest-template": "index.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "farzam",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farzam-seyedhashem/next-redux-jest-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/farzam-seyedhashem/next-redux-jest-template/issues"
+  },
+  "homepage": "https://github.com/farzam-seyedhashem/next-redux-jest-template#readme"
 }
